@@ -72,10 +72,6 @@ public enum Colors {
         this.color = new Color(rgb);
     }
 
-    public char symbol() {
-        return symbol;
-    }
-
     public Color color() {
         return color;
     }

@@ -13,9 +13,6 @@ import java.util.Objects;
 
 // Converti un TXT sprite symbolique vers une couleur et les dessinent avec des pixels sans anticrénelage
 public final class PixelRenderer {
-    // Taille par défaut du format sur lequel on affiche
-    public static final int WIDTH = 256;
-    public static final int HEIGHT = 256;
 
     // On Map le sprite avec un buffer
     private final Map<PixelSprite, BufferedImage> images = new IdentityHashMap<>();
